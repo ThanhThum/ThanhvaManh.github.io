@@ -1,199 +1,312 @@
-<!DOCTYPE html> 
+<!doctype html>
 <html>
+
 <head>
-	<meta charset="utf-8"> <!-- khai báo charset utf để giao diện hiện thị Tiếng Việt -->
-	<meta name = "viewport" content="width=device-width , initial-scale=1"> <!-- / hiện thị kích thước 100% -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"> <!-- // import thư viện awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css"> <!-- // imoport thư viện awesome -->
-	<link rel="stylesheet" type="text/css" href="boosttrap/css/boosttrap.css">  <!--import boostrap css  -->
-	<link rel="stylesheet" href="./css/style.css"> <!-- khai báo file để code style -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> <!-- // import boostrap css online -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper ... =https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> <!-- // import boostrap js -->
-	<script type="text/javascript" src="boosttrap/js/boosttrap.js"></script>
-	<title> Giới thiệu </title>
- 	
-<body>
-<nav class ="navbar navbar-expand-md navbar-light navbar-fixed-top">	<!-- thẻ thanh đầu trang web / navigation -->
-	<div class="container-fluid">
-		<a class="navbar-brand" href="https://uet.vnu.edu.vn/" target="_blank" rel="nopener noreferrer" >
-			<img src="./images/logo.jpg" height="65" id="Home">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" 
-			data-target="#navbarResponsive">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarResponsive">
-			<ul class="navbar-nav ml-auto">
-					<li class="nav-item ">	
-						<a class="topnav"> </a>
-					</li>
-				<li class="nav-item ">	
-					<a class="nav-link" href="#Home" title="Home.html" target="_self">Home</a>
-				</li>
-				<li class ="nav-item">
-					<a class="nav-link" href="#About" title="AboutUs.html" >About</a>
+    <title>Giao Diện front-end giới thiệu về project</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-				</li>
-				<li class ="nav-item">
-					<a class="nav-link" href="#Connect" title="Xem sản phẩm" >Project</a> 
-				</li>
-			</ul>	
-</nav>
+    <!-- Font -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"> <!-- // import thư viện awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css"> <!-- // imoport thư viện awesome -->
 
-<div id="slides" class="carousel slide" data-ride="carousel"> <!-- thẻ slide chạy các ảnh giới thiệu  --> 
-	<ul class="carousel-indicators">
-		<li data-target="#slides" data-slide-to="0" class="active"></li>
-		<li data-target="#slides" data-slide-to="1"></li>
-		<li data-target="#slides" data-slide-to="2"></li>		
-		<li data-target="#slides" data-slide-to="3"></li>
-	</ul>
-	<div class="carousel-inner">
-		<div class="carousel-item active">
-			<img src="./images/demo.png">
-			<div class="carousel-caption">
-				<h2 class="display-2">Chào mừng các bạn đến với project của chúng mình</h2>
-				<h3>  </h3>
-				
-			</div>
-		</div>
-		<div class="carousel-item">
-			<img src="./images/weather.jpg">
-		</div>
-		<div class="carousel-item">
-			<img src="./images/anh2.png">
-		</div>
-		<div class="carousel-item">
-			<img src="./images/demo3.jpg">
-		</div>
-	</div>
-</div>
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
 
-<div class="container-fluid"> <!-- // thẻ giới thiệu thông tin về dự án -->
-	<div class="jumbotron">
-		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-			<p> Đây là sản phẩm bài tập lớn môn Ứng Dụng Máy Tính trong đo lường và điều khiển</p>
-			<p> Các bạn muốn xem server demo vui lòng click đường link bên dưới</p>
-		</div>
-		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-			<a href="http://192.168.1.7">
-				<button type="button" class="btn btn-outline-link active " id="Connect" >Server biểu đ nhiệt độ & độ ẩm</button>
-			</a>
-			<a href="https://github.com/ThanhThum/ThanhThum.git" target="_blank" rel="nopener noreferrer ">
-			<button type="button" class="btn btn-primary"  >Link Code GitHub của dự án</button>
-			</a>
-		</div>
-	</div>
-</div>
+<body data-spy="scroll" data-target="#navbar" data-offset="30">
 
+    <!-- Nav Menu -->
+
+    <div class="nav-menu fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-dark navbar-expand-lg">
+                        <a class="navbar-brand" href="index.html"><img src="https://uet.vnu.edu.vn/wp-content/uploads/2017/02/logo2_new.png" class="img-fluid" alt="logo"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                        <div class="collapse navbar-collapse" id="navbar">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item"> <a class="nav-link active" href="#home">HOME <span class="sr-only">(current)</span></a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#features">TÍNH NĂNG</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#gallery">HÌNH ẢNH SẢN PHẨM</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#contact">THÀNH VIÊN</a> </li>
+                                <li class="nav-item"><a href="#" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Download</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <header class="bg-gradient" id="home">
+        <div class="container mt-5">
+            <h1>Weather Station</h1>
+            <p class="tagline">Thiết bị đo nhiệt độ và độ ẩm</p>
+        </div>
+        <div class="img-holder mt-3"><img src="images/beacon_spam.png" alt="phone" class="img-fluid"></div>
+    </header>
+
+
+    <div class="section light-bg" id="features">
+
+
+        <div class="container">
+
+            <div class="section-title">
+                <!-- <small>HIGHLIGHTS</small> -->
+                <h3>TÍNH NĂNG NỔI BẬT</h3>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 ">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class="ti-face-smile gradient-fill ti-3x mr-3"></span>
+                                <div class="media-body">
+                                    <h4 class="card-title">Đơn giản</h4>
+                                    <p class="card-text">Thiết bị sẽ tự động gửi dữ liệu lên sever và có thể theo dõi bất kỳ lúc nào </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 ">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class="ti-settings gradient-fill ti-3x mr-3"></span>
+                                <div class="media-body">
+                                    <h4 class="card-title">Tuỳ biến cao</h4>
+                                    <p class="card-text">Sản phẩm nhỏ gọn, có thể lắp đặt bất kỳ vị trí nào trong nhà </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 ">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class="ti-lock gradient-fill ti-3x mr-3"></span>
+                                <div class="media-body">
+                                    <h4 class="card-title">An toàn</h4>
+                                    <p class="card-text">Sản phẩm sử dụng nguồn điện 5v rất an toàn với cơ thể </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 <div class="container-fluid padding"> <!-- // thông tin chi tiết -->
-	<div class="row welcome text-center">
-		<div class="col-12">
-			<h1 class="display-4">Sản phẩm Weather Station</h1>
-		</div>
-		<hr> 
-		<div class="col-12">
-			<p> Một sản phẩm ứng dụng Chip ESP8266 , cảm biến DHT11 , Arduino IDE , JS/BOOTSTRAP4/HTML5/CSS3 - Công nghệ IOT</p>
-		</div>
-	</div>
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h2>Công nghệ được ứng dụng</h2>
+        </div>
+        <hr> 
+        <div class="col-12">
+            <p> Một sản phẩm ứng dụng Chip ESP8266 , cảm biến DHT11 , Arduino IDE , JS/BOOTSTRAP4/HTML5/CSS3 - Công nghệ IOT</p>
+        </div>
+    </div>
 </div>
 <div class="container-fluid padding">
-	<div class="row text-center padding">
-		<div class="col-xs-12 col-sm-6 col-md-4 ">
-			<i class="fas fa-microchip"></i>	
-			<h3>ESP8266</h3>
-			<p>Mạch vi điều khiển được tích hợp WiFi 2.4Ghz </p>					
-		</div>
-		<div class="col-xs-12 col-sm-4 col-md-4 ">
-			<i class="fas fa-tint"></i>		
-			<h3>DHT11</h3>
-			<p>Cảm biến nhiệt và độ ẩm</p>
-		</div>
-		<div class=" col-sm-12 col-md-4">
-			<i class="fab fa-css3"></i>			
-			<h3>CSS3 , HTML5</h3>
-			<p>Xây dựng giao diện Website 1 cách dễ dàng nhất </p>
-		</div>
-	</div>	
-	<hr class="my-4">	
+    <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-4 ">
+            <i class="fas fa-microchip"></i>    
+            <h3>ESP8266</h3>
+            <p>Mạch vi điều khiển được tích hợp WiFi 2.4Ghz </p>                    
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 ">
+            <i class="fas fa-tint"></i>     
+            <h3>DHT11</h3>
+            <p>Cảm biến nhiệt và độ ẩm</p>
+        </div>
+        <div class=" col-sm-12 col-md-4">
+            <i class="fab fa-css3"></i>         
+            <h3>CSS3 , HTML5</h3>
+            <p>Xây dựng giao diện Website 1 cách dễ dàng nhất </p>
+        </div>
+    </div>  
+    <hr class="my-4">   
 </div>
+    <!-- // end .section -->
+    <!-- <div class="section">
+        <div class="container">
+                <div class="section-title">
+                    <h2>SẢN PHẨM HOÀN THIỆN</h2>
+                </div>
+            
+            <div class="perspective-phone">
+                 <img src="images/esp8266 vs dht.png" alt="perspective phone" class="img-fluid"> 
+            </div>
+        </div>
 
-<div class="container-fluid padding"> <!-- // giới thiệu các thành viên -->
-	<div class="row welcome text-center">
-		<div class="col-12">
-			<h1 class="display-4">Các Thành Viên Của Dự Án</h1>
-		</div>
-	</div>
-</div>
-<div class="container-fluid padding">
-	<div class="row padding">
-		<div class="col-md-4">
-			<div class="card">
-				<img class="card-img-top" src="./images/profile1.jpg" width="300" height="250">
-				<div class="card-body">
-					<h4 class="card-title"> Nguyễn Duy Thành </h4>
-					<p class="card-text"> Là Sinh Viên K62-M2 Đại học Công Nghệ (UET) - ĐHQGHN</p>
-					<a href="https://www.facebook.com/immaheartbreaker.3399/" target="_blank" rel="nopener noreferrer" class="btn btn-info">See profile</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="card">
-				<img class="card-img-top" src="">
-				<div class="card-body">
-					<h4 class="card-title"> Vương Hữu Mạnh</h4>
-					<p class="card-text"> Là Sinh Viên K62-M2 Khoa Cơ điện tử Đại học Công Nghệ</p>
-					<a href="https://www.facebook.com/ybhnam/" target="_blank" rel="nopener noreferrer" class="btn btn-info">See profile</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="card">
-				<img class="card-img-top" src="">
-				<div class="card-body">
-					<h4 class="card-title"> Thầy Hoàng Văn Mạnh </h4>
-					<p class="card-text"> Là Giảng viên khoa Cơ học điện tử - Đại học Công Nghệ (UET) - ĐHQGHN</p>
-					<a href="https://www.facebook.com/immaheartbreaker.3399/" target="_blank" rel="nopener noreferrer" class="btn btn-info">See profile</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+    </div> -->
+    <!-- // end .section -->
 
-<div class="container-fluid padding">	<!-- // contact -->
-	<div class="row text-center padding">
-		<div class="col-12">
-			<h2> Liên Hệ với chúng tôi</h2>
-		</div>
-		<div class="col-12 social padding">
-			<a href="https://www.facebook.com/immaheartbreaker.3399/" target="_blank" rel="nopener noreferrer"  ><i class="fab fa-facebook"></i></a>
-			<a href="#"><i class="fab fa-google-plus-g"></i></a>
-			<a href="#"><i class="fab fa-instagram"></i></a>
-			<a href="#"><i class="fab fa-youtube"></i></a>
-		</div>
-	</div>
-</div>	
-<footer>
-	<div class="container-fluid padding">	
-		<div class="row text-center">
-			<div class="col-sm-6">
-				<hr class="light">
-				<h5 id="About" > Địa chỉ </h5>
-				<hr class="light">
-				<p>Phone:099999999</p>
-				<p>Email:17020422@vnu.edu.vn</p>
-				<p>Tòa G2-Đại học Công nghệ - ĐHQGHN - 144 Xuân Thủy , Cầu Giấy , Hà Nội</p>
-			</div>
-			<div class="col-sm-6">				
-				<hr class="light">
-				<h5>Thời gian làm việc </h5>
-				<hr class="light">
-				<p>Thứ 2 - Thứ 6: 8am - 5pm</p>
-				<p>T7-CN: Nghỉ </p>
-			</div>
-		</div>
-	</div>
-</footer>	
+
+    <div class="section light-bg">
+        <div class="container">
+            <div class="section-title">
+                <small>CÁCH SỬ DỤNG</small>
+                <h3>Giám sát nhiệt độ và độ ẩm theo thời gian thực</h3>
+            </div>
+
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#communication">Bước 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#schedule">Bước 2</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="communication">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <img src="images/graphic.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                        <div>
+                            <h2>Kết nối thiết bị với WIFI</h2>
+                            <p class="lead">Các bạn cấp nguồn cho Node MCU , nạp code có sẵn qua IDE nhé ! </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="schedule">
+                    <div class="d-flex flex-column flex-lg-row">
+					
+                        <div>
+                            <h2>Truy cập vào địa chỉ IP của thiết bị <a href="http://192.168.43.254/" target="_blank" rel="nopener noreferrer">TẠI ĐÂY</a></h2>
+							<img src="images/graphic.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+							<p class="lead">Thông tin về nhiệt độ và độ ẩm sẽ được cập nhật liên tục tuỳ theo nhu cầu sử dụng của người dùng </p>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <!-- // end .section -->
+
+
+
+ 
+
+
+    <div class="section light-bg" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <small>HÌNH ẢNH</small>
+                <h3>Ảnh đo thực tế của thiết bị</h3>
+            </div>
+
+            <div class="img-gallery owl-carousel owl-theme">
+                <img src="images/screen1.jpg" alt="image">
+                <img src="images/screen2.jpg" alt="image">
+                <img src="images/screen3.jpg" alt="image">
+                <img src="images/screen1.jpg" alt="image">
+            </div>
+
+        </div>
+
+    </div>
+    <!-- // end .section -->
+    <div class="section pt-0">
+        <div class="container">
+            <div class="section-title">
+                <small> Tiến độ hoàn thành sản phẩm</small> 
+                <h3>Đã hoàn thành đc 80% công việc</h3>
+            </div>
+            <div class="progress progress-striped active">
+
+  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+
+    <span class="sr-only">80% Complete (danger)</span>
+
+  </div>
+
+</div>
+        </div>
+    
+
+    </div>
+    <!-- // end .section -->
+   <div class="section">
+        <div class="container">
+            <div class="section-title">
+                <small>THÀNH VIÊN THỰC HIỆN</small>
+                <h3>NHÓM SỐ XX</h3>
+            </div>
+
+            <div class="testimonials owl-carousel">
+                <div class="testimonials-single">
+                    <img src="https://scontent.fhan5-7.fna.fbcdn.net/v/t31.0-1/p200x200/15167578_1804500829824509_1438964957295481474_o.jpg?_nc_cat=103&ccb=2&_nc_sid=7206a8&_nc_ohc=WEwx7MZbMm0AX8wTJo_&_nc_ht=scontent.fhan5-7.fna&tp=6&oh=8214bc49ff2f52bf5543044e553327ba&oe=5FCDEE81" alt="client" class="client-img">
+                    <blockquote class="blockquote">Sinh Viên K62-M2 Đại học Công Nghệ (UET) - ĐHQGHN</blockquote>
+                    <h5 class="mt-4 mb-2">Nguyễn Duy Thành</h5>
+                    <p class="text-primary">Nhóm trưởng</p>
+                </div>
+                <div class="testimonials-single">
+                    <img src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-1/p200x200/68867689_104608574238622_573348928238387200_n.jpg?_nc_cat=111&ccb=2&_nc_sid=7206a8&_nc_ohc=kxH06Iu9BisAX-TTxB5&_nc_ht=scontent.fhan5-3.fna&tp=6&oh=ef524db77df6600078e7975409507b91&oe=5FCD8B33" alt="client" class="client-img">
+                    <blockquote class="blockquote">Sinh Viên K62-M2 Đại học Công Nghệ (UET) - ĐHQGHN</blockquote>
+                    <h5 class="mt-4 mb-2">Vương Hữu Mạnh</h5>
+                    <p class="text-primary"></p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- // end .section -->
+    <div class="light-bg py-5" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10>">
+                    <p class="mb-2"> <span class="ti-location-pin mr-2"></span> Tòa G2-Đại học Công nghệ - ĐHQGHN - 144 Xuân Thủy , Cầu Giấy , Hà Nội</p>
+                    <div class=" d-block d-sm-inline-block">
+                        <p class="mb-2">
+                            <span class="ti-email mr-2"></span> <a class="mr-4" href="#">Email:17020422@vnu.edu.vn</a>
+                        </p>
+                    </div>
+                    <div class="d-block d-sm-inline-block">
+                        <p class="mb-0">
+                            <span class="ti-headphone-alt mr-2"></span> <a href="#">099999999</a>
+                        </p>
+                    </div>
+                    <div class="container-fluid padding">   <!-- // contact -->
+    <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5 social padding">
+            <a href="https://www.facebook.com/immaheartbreaker.3399/" target="_blank" rel="nopener noreferrer"  ><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+        </div>
+    </div>
+</div>  
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
 </body>
-</html> 
+
+</html>
